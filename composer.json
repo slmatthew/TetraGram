@@ -1,0 +1,16 @@
+{
+    "name": "slmatthew/tetragram",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Slmatthew\\Tetragram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matvey",
+            "email": "36668268+slmatthew@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
