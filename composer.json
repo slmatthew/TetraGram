@@ -12,5 +12,7 @@
             "email": "36668268+slmatthew@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
 }
