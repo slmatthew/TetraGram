@@ -10,11 +10,11 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class MenuButton extends Entity implements Factory
 {
-    public const string TYPE_COMMANDS = 'commands';
+    public const TYPE_COMMANDS = 'commands';
 
-    public const string TYPE_WEB_APP = 'web_app';
+    public const TYPE_WEB_APP = 'web_app';
 
-    public const string TYPE_DEFAULT = 'default';
+    public const TYPE_DEFAULT = 'default';
 
     public static function make(array $data): static
     {

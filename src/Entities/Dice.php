@@ -8,15 +8,15 @@ namespace Slmatthew\Tetragram\Entities;
  */
 class Dice extends Entity
 {
-    public const string EMOJI_DICE = '🎲';
+    public const EMOJI_DICE = '🎲';
 
-    public const string EMOJI_DARTS = '🎯';
+    public const EMOJI_DARTS = '🎯';
 
-    public const string EMOJI_BOWLING = '🎳';
+    public const EMOJI_BOWLING = '🎳';
 
-    public const string EMOJI_BASKETBALL = '🏀';
+    public const EMOJI_BASKETBALL = '🏀';
 
-    public const string EMOJI_SOCCER = '⚽';
+    public const EMOJI_SOCCER = '⚽';
 
-    public const string EMOJI_SLOT_MACHINE = '🎰';
+    public const EMOJI_SLOT_MACHINE = '🎰';
 }

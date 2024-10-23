@@ -10,11 +10,11 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class BackgroundFill extends Entity implements Factory
 {
-    public const string TYPE_SOLID = 'solid';
+    public const TYPE_SOLID = 'solid';
 
-    public const string TYPE_GRADIENT = 'gradient';
+    public const TYPE_GRADIENT = 'gradient';
 
-    public const string TYPE_FREEFORM_GRADIENT = 'freeform_gradient';
+    public const TYPE_FREEFORM_GRADIENT = 'freeform_gradient';
 
     public static function make(array $data): static
     {

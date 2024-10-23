@@ -10,17 +10,17 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class ChatMember extends Entity implements Factory
 {
-    public const string TYPE_CREATOR = 'creator';
+    public const TYPE_CREATOR = 'creator';
 
-    public const string TYPE_ADMINISTRATOR = 'administrator';
+    public const TYPE_ADMINISTRATOR = 'administrator';
 
-    public const string TYPE_MEMBER = 'member';
+    public const TYPE_MEMBER = 'member';
 
-    public const string TYPE_RESTRICTED = 'restricted';
+    public const TYPE_RESTRICTED = 'restricted';
 
-    public const string TYPE_LEFT = 'left';
+    public const TYPE_LEFT = 'left';
 
-    public const string TYPE_KICKED = 'kicked';
+    public const TYPE_KICKED = 'kicked';
 
     public static function make(array $data): static
     {

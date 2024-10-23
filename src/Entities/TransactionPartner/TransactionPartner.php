@@ -10,13 +10,13 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class TransactionPartner extends Entity implements Factory
 {
-    public const string TYPE_USER = 'user';
+    public const TYPE_USER = 'user';
 
-    public const string TYPE_FRAGMENT = 'fragment';
+    public const TYPE_FRAGMENT = 'fragment';
 
-    public const string TYPE_TELEGRAM_ADS = 'telegram_ads';
+    public const TYPE_TELEGRAM_ADS = 'telegram_ads';
 
-    public const string TYPE_OTHER = 'other';
+    public const TYPE_OTHER = 'other';
 
     public static function make(array $data): static
     {

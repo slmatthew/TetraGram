@@ -17,6 +17,7 @@ use Slmatthew\Tetragram\Contracts\AllowsBypassingGet;
  * @method bool        canReadAllGroupMessages()  Optional. True, if privacy mode is disabled for the bot. Returned only in getMe.
  * @method bool|null   getSupportsInlineQueries() Optional. True, if the bot supports inline queries. Returned only in getMe.
  * @method bool        canConnectToBusiness()     Optional. True, if the bot can be connected to a Telegram Business account to receive its messages. Returned only in getMe.
+ * @method bool|null   getHasMainWebApp()         Optional. True, if the bot has a main Web App. Returned only in getMe.
  */
 class User extends Entity implements AllowsBypassingGet
 {
@@ -28,6 +29,7 @@ class User extends Entity implements AllowsBypassingGet
             'can_join_groups'             => false,
             'can_read_all_group_messages' => false,
             'can_connect_to_business'     => false,
+            'has_main_web_app'            => false,
         ];
     }
 }

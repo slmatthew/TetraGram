@@ -13,43 +13,43 @@ namespace Slmatthew\Tetragram\Entities;
  */
 class MessageEntity extends Entity
 {
-    public const string TYPE_MENTION = 'mention'; // @username
+    public const TYPE_MENTION = 'mention'; // @username
 
-    public const string TYPE_HASHTAG = 'hashtag'; // #hashtag
+    public const TYPE_HASHTAG = 'hashtag'; // #hashtag
 
-    public const string TYPE_CASHTAG = 'cashtag'; // $USD
+    public const TYPE_CASHTAG = 'cashtag'; // $USD
 
-    public const string TYPE_BOT_COMMAND = 'bot_command'; // /start@jobs_bot
+    public const TYPE_BOT_COMMAND = 'bot_command'; // /start@jobs_bot
 
-    public const string TYPE_URL = 'url'; // https://telegram.org
+    public const TYPE_URL = 'url'; // https://telegram.org
 
-    public const string TYPE_EMAIL = 'email'; // do-not-reply@telegram.org
+    public const TYPE_EMAIL = 'email'; // do-not-reply@telegram.org
 
-    public const string TYPE_PHONE_NUMBER = 'phone_number'; // +1-212-555-0123
+    public const TYPE_PHONE_NUMBER = 'phone_number'; // +1-212-555-0123
 
-    public const string TYPE_BOLD = 'bold'; // bold text
+    public const TYPE_BOLD = 'bold'; // bold text
 
-    public const string TYPE_ITALIC = 'italic'; // italic text
+    public const TYPE_ITALIC = 'italic'; // italic text
 
-    public const string TYPE_UNDERLINE = 'underline'; // underlined text
+    public const TYPE_UNDERLINE = 'underline'; // underlined text
 
-    public const string TYPE_STRIKETHROUGH = 'strikethrough'; // strikethrough text
+    public const TYPE_STRIKETHROUGH = 'strikethrough'; // strikethrough text
 
-    public const string TYPE_SPOILER = 'spoiler'; // spoiler message
+    public const TYPE_SPOILER = 'spoiler'; // spoiler message
 
-    public const string TYPE_BLOCKQUOTE = 'blockquote'; // block quotation
+    public const TYPE_BLOCKQUOTE = 'blockquote'; // block quotation
 
-    public const string TYPE_EXPANDABLE_BLOCKQUOTE = 'expandable_blockquote'; // collapsed-by-default block quotation
+    public const TYPE_EXPANDABLE_BLOCKQUOTE = 'expandable_blockquote'; // collapsed-by-default block quotation
 
-    public const string TYPE_CODE = 'code'; // monowidth string
+    public const TYPE_CODE = 'code'; // monowidth string
 
-    public const string TYPE_PRE = 'pre'; // monowidth block
+    public const TYPE_PRE = 'pre'; // monowidth block
 
-    public const string TYPE_TEXT_LINK = 'text_link'; // for clickable text URLs
+    public const TYPE_TEXT_LINK = 'text_link'; // for clickable text URLs
 
-    public const string TYPE_TEXT_MENTION = 'text_mention'; // for users without usernames
+    public const TYPE_TEXT_MENTION = 'text_mention'; // for users without usernames
 
-    public const string TYPE_CUSTOM_EMOJI = 'custom_emoji'; // for inline custom emoji stickers
+    public const TYPE_CUSTOM_EMOJI = 'custom_emoji'; // for inline custom emoji stickers
 
     protected static function subEntities(): array
     {

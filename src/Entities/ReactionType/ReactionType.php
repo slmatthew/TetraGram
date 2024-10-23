@@ -10,9 +10,9 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class ReactionType extends Entity implements Factory
 {
-    public const string TYPE_EMOJI = 'emoji';
+    public const TYPE_EMOJI = 'emoji';
 
-    public const string TYPE_CUSTOM_EMOJI = 'custom_emoji';
+    public const TYPE_CUSTOM_EMOJI = 'custom_emoji';
 
     public static function make(array $data): static
     {

@@ -10,11 +10,11 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class ChatBoostSource extends Entity implements Factory
 {
-    public const string SOURCE_PREMIUM = 'premium';
+    public const SOURCE_PREMIUM = 'premium';
 
-    public const string SOURCE_GIFT_CODE = 'gift_code';
+    public const SOURCE_GIFT_CODE = 'gift_code';
 
-    public const string SOURCE_GIVEAWAY = 'giveaway';
+    public const SOURCE_GIVEAWAY = 'giveaway';
 
     public static function make(array $data): static
     {

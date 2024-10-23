@@ -9,7 +9,7 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class InputPaidMedia extends Entity
 {
-    public const string TYPE_PHOTO = 'photo';
+    public const TYPE_PHOTO = 'photo';
 
-    public const string TYPE_VIDEO = 'video';
+    public const TYPE_VIDEO = 'video';
 }

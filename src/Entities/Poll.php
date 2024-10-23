@@ -22,9 +22,9 @@ use Slmatthew\Tetragram\Contracts\AllowsBypassingGet;
  */
 class Poll extends Entity implements AllowsBypassingGet
 {
-    public const string TYPE_REGULAR = 'regular';
+    public const TYPE_REGULAR = 'regular';
 
-    public const string TYPE_QUIZ = 'quiz';
+    public const TYPE_QUIZ = 'quiz';
 
     protected static function subEntities(): array
     {

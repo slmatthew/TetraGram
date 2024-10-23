@@ -66,7 +66,7 @@ abstract class Entity implements JsonSerializable
     {
         $data = $this->fields[$name] ?? null;
 
-        $subEntities = (new InaccessibleMessage)->subEntities();
+        $subEntities = static::subEntities();
         if (is_null($data) || ! isset($subEntities[$name])) {
             return $data;
         }
@@ -108,7 +108,7 @@ abstract class Entity implements JsonSerializable
         $this->fields[$name] = $value;
     }
 
-    public function jsonSerialize(): array
+    public function jsonSerialize(): mixed
     {
         return array_filter($this->fields, fn ($value) => ! is_null($value));
     }

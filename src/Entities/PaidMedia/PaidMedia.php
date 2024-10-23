@@ -10,11 +10,11 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class PaidMedia extends Entity implements Factory
 {
-    public const string TYPE_PREVIEW = 'preview';
+    public const TYPE_PREVIEW = 'preview';
 
-    public const string TYPE_PHOTO = 'photo';
+    public const TYPE_PHOTO = 'photo';
 
-    public const string TYPE_VIDEO = 'video';
+    public const TYPE_VIDEO = 'video';
 
     public static function make(array $data): static
     {

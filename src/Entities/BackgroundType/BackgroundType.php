@@ -10,13 +10,13 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class BackgroundType extends Entity implements Factory
 {
-    public const string TYPE_FILL = 'fill';
+    public const TYPE_FILL = 'fill';
 
-    public const string TYPE_WALLPAPER = 'wallpaper';
+    public const TYPE_WALLPAPER = 'wallpaper';
 
-    public const string TYPE_PATTERN = 'pattern';
+    public const TYPE_PATTERN = 'pattern';
 
-    public const string TYPE_CHAT_THEME = 'chat_theme';
+    public const TYPE_CHAT_THEME = 'chat_theme';
 
     public static function make(array $data): static
     {

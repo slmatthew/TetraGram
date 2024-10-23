@@ -10,19 +10,19 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class BotCommandScope extends Entity implements Factory
 {
-    public const string TYPE_DEFAULT = 'default';
+    public const TYPE_DEFAULT = 'default';
 
-    public const string TYPE_ALL_PRIVATE_CHATS = 'all_private_chats';
+    public const TYPE_ALL_PRIVATE_CHATS = 'all_private_chats';
 
-    public const string TYPE_ALL_GROUP_CHATS = 'all_group_chats';
+    public const TYPE_ALL_GROUP_CHATS = 'all_group_chats';
 
-    public const string TYPE_ALL_CHAT_ADMINISTRATORS = 'all_chat_administrators';
+    public const TYPE_ALL_CHAT_ADMINISTRATORS = 'all_chat_administrators';
 
-    public const string TYPE_CHAT = 'chat';
+    public const TYPE_CHAT = 'chat';
 
-    public const string TYPE_CHAT_ADMINISTRATORS = 'chat_administrators';
+    public const TYPE_CHAT_ADMINISTRATORS = 'chat_administrators';
 
-    public const string TYPE_CHAT_MEMBER = 'chat_member';
+    public const TYPE_CHAT_MEMBER = 'chat_member';
 
     public static function make(array $data): static
     {

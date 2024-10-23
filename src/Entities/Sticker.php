@@ -21,11 +21,11 @@ namespace Slmatthew\Tetragram\Entities;
  */
 class Sticker extends Entity
 {
-    public const string TYPE_REGULAR = 'regular';
+    public const TYPE_REGULAR = 'regular';
 
-    public const string TYPE_MASK = 'mask';
+    public const TYPE_MASK = 'mask';
 
-    public const string TYPE_CUSTOM_EMOJI = 'custom_emoji';
+    public const TYPE_CUSTOM_EMOJI = 'custom_emoji';
 
     protected static function subEntities(): array
     {

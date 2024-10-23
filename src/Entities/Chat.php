@@ -15,13 +15,13 @@ use Slmatthew\Tetragram\Contracts\AllowsBypassingGet;
  */
 class Chat extends Entity implements AllowsBypassingGet
 {
-    public const string TYPE_PRIVATE = 'private';
+    public const TYPE_PRIVATE = 'private';
 
-    public const string TYPE_GROUP = 'group';
+    public const TYPE_GROUP = 'group';
 
-    public const string TYPE_SUPERGROUP = 'supergroup';
+    public const TYPE_SUPERGROUP = 'supergroup';
 
-    public const string TYPE_CHANNEL = 'channel';
+    public const TYPE_CHANNEL = 'channel';
 
     public static function fieldsBypassingGet(): array
     {

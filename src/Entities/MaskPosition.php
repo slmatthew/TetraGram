@@ -10,11 +10,11 @@ namespace Slmatthew\Tetragram\Entities;
  */
 class MaskPosition extends Entity
 {
-    public const string POINT_FOREHEAD = 'forehead';
+    public const POINT_FOREHEAD = 'forehead';
 
-    public const string POINT_EYES = 'eyes';
+    public const POINT_EYES = 'eyes';
 
-    public const string POINT_MOUTH = 'mouth';
+    public const POINT_MOUTH = 'mouth';
 
-    public const string POINT_CHIN = 'chin';
+    public const POINT_CHIN = 'chin';
 }

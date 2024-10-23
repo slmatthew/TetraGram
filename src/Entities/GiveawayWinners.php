@@ -11,6 +11,7 @@ use Slmatthew\Tetragram\Contracts\AllowsBypassingGet;
  * @method int         getWinnerCount()                                         Total number of winners in the giveaway
  * @method User[]      getWinners()                                             List of up to 100 winners of the giveaway
  * @method int|null    getAdditionalChatCount()                                 Optional. The number of other chats the user had to join in order to be eligible for the giveaway
+ * @method int|null    getPrizeStarCount()                                      Optional. The number of Telegram Stars to be split between giveaway winners; for Telegram Star giveaways only
  * @method int|null    getPremiumSubscriptionMonthCount()                       Optional. The number of months the Telegram Premium subscription won from the giveaway will be active for
  * @method int|null    getUnclaimedPrizeCount()                                 Optional. Number of undistributed prizes
  * @method true|null   getOnlyNewMembers()                                      Optional. True, if only users who had joined the chats after the giveaway started were eligible to win

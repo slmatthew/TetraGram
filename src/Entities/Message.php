@@ -66,6 +66,7 @@ use Slmatthew\Tetragram\Entities\MessageOrigin\MessageOrigin;
  * @method MaybeInaccessibleMessage|null      getPinnedMessage()                 Optional. Specified message was pinned. Note that the Message object in this field will not contain further reply_to_message fields even if it itself is a reply.
  * @method Invoice|null                       getInvoice()                       Optional. Message is an invoice for a payment, information about the invoice.
  * @method SuccessfulPayment|null             getSuccessfulPayment()             Optional. Message is a service message about a successful payment, information about the payment.
+ * @method RefundedPayment|null               getRefundedPayment()               Optional. Message is a service message about a refunded payment, information about the payment.
  * @method UsersShared|null                   getUsersShared()                   Optional. Service message: users were shared with the bot
  * @method ChatShared|null                    getChatShared()                    Optional. Service message: a chat was shared with the bot
  * @method string|null                        getConnectedWebsite()              Optional. The domain name of the website on which the user has logged in.
@@ -132,6 +133,7 @@ class Message extends MaybeInaccessibleMessage implements AllowsBypassingGet
             'pinned_message'                    => MaybeInaccessibleMessage::class,
             'invoice'                           => Invoice::class,
             'successful_payment'                => SuccessfulPayment::class,
+            'refunded_payment'                  => RefundedPayment::class,
             'users_shared'                      => UsersShared::class,
             'chat_shared'                       => ChatShared::class,
             'write_access_allowed'              => WriteAccessAllowed::class,

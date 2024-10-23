@@ -10,11 +10,11 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 abstract class RevenueWithdrawalState extends Entity implements Factory
 {
-    public const string TYPE_PENDING = 'pending';
+    public const TYPE_PENDING = 'pending';
 
-    public const string TYPE_SUCCEEDED = 'succeeded';
+    public const TYPE_SUCCEEDED = 'succeeded';
 
-    public const string TYPE_FAILED = 'failed';
+    public const TYPE_FAILED = 'failed';
 
     public static function make(array $data): static
     {

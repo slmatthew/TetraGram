@@ -10,15 +10,15 @@ use Slmatthew\Tetragram\Entities\Entity;
  */
 class InputMedia extends Entity implements Factory
 {
-    public const string TYPE_PHOTO = 'photo';
+    public const TYPE_PHOTO = 'photo';
 
-    public const string TYPE_VIDEO = 'video';
+    public const TYPE_VIDEO = 'video';
 
-    public const string TYPE_ANIMATION = 'animation';
+    public const TYPE_ANIMATION = 'animation';
 
-    public const string TYPE_AUDIO = 'audio';
+    public const TYPE_AUDIO = 'audio';
 
-    public const string TYPE_DOCUMENT = 'document';
+    public const TYPE_DOCUMENT = 'document';
 
     public static function make(array $data): static
     {
